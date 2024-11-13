@@ -1,0 +1,113 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navigation Styles */
+nav {
+    background: #35424a;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.logo a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.menu ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Header Styles */
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+hr {
+    margin: 20px auto;
+}
+
+/* Table Styles */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: #ffffff;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background: #35424a;
+    color: #ffffff;
+}
+
+/* List Styles */
+ul, ol {
+    margin: 20px auto;
+    padding: 0 20px;
+    max-width: 80%;
+}
+
+/* Section Styles */
+h3 {
+    margin-top: 30px;
+    color: #35424a;
+}
+
+/* Contact Icons */
+a img {
+    vertical-align: middle;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    table {
+        width: 100%;
+    }
+}
