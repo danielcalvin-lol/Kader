@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -8,7 +8,7 @@ body {
     color: #333;
 }
 
-/* Navigation Styles */
+
 nav {
     background: #35424a;
     color: #ffffff;
@@ -45,7 +45,7 @@ nav {
     text-decoration: none;
 }
 
-/* Header Styles */
+
 h1 {
     text-align: center;
     margin: 20px 0;
@@ -55,7 +55,7 @@ hr {
     margin: 20px auto;
 }
 
-/* Table Styles */
+
 table {
     width: 80%;
     margin: 20px auto;
@@ -77,25 +77,25 @@ th {
     color: #ffffff;
 }
 
-/* List Styles */
+
 ul, ol {
     margin: 20px auto;
     padding: 0 20px;
     max-width: 80%;
 }
 
-/* Section Styles */
+
 h3 {
     margin-top: 30px;
     color: #35424a;
 }
 
-/* Contact Icons */
+
 a img {
     vertical-align: middle;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     .wrapper {
         flex-direction: column;
